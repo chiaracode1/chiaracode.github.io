@@ -210,3 +210,12 @@ p {
     padding: 10px;
     font-size: large;
 }
+
+#arrow {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#arrow a {
+    color: #2a2929;
+}
