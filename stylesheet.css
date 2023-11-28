@@ -8,18 +8,17 @@ body {
     background-image: url(background1.jpg);
     background-size: cover;
 }
-
 /* MOBILE */
 @media screen and (min-width: 300px) and (max-width: 550px) {
-body {
-    width: 100%;
-}
-h1 {
+.main {
 display: flex;
-justify-content: flex-end;
+justify-content: center;
+flex-wrap: wrap;
+}
+p {
+text-align: justify;
 }
 }
-
 /* TABLET */
 @media screen and (min-width: 700px) and (max-width: 1024px) {
 body {
