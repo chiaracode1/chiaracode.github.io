@@ -1,0 +1,212 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(background1.jpg);
+    background-size: cover;
+}
+
+/* MOBILE */
+@media screen and (min-width: 300px) and (max-width: 550px) {
+body {
+    width: 100%;
+}
+h1 {
+display: flex;
+justify-content: flex-end;
+}
+}
+
+/* TABLET */
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+body {
+    width: auto;
+}
+}
+
+
+/*MENU*/
+
+#drop-menu {
+    margin-top: -35px;
+    margin-left: 20px;
+    padding: 0;
+    
+}
+
+ul#menu {
+    margin: 60px -20px 0;
+    padding: 0;
+    list-style: none;
+    background-color:#0186ba;
+    font-size: 80%
+}
+
+ul#menu li {
+    margin: 0 auto;
+    padding: 0;
+    float: left;
+    display: block;
+    position: relative;
+}
+
+ul#menu li a {
+    float: left;
+    padding: 12px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+ul#menu li a:hover {
+    background: #666;
+    color: #fff
+}
+
+ul#menu ul {
+    margin: 2px 0 0;
+    padding: 0;
+    display: inline-block;
+    list-style: none;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 38px;
+    left: 0;
+    background: #796d6d;
+}
+
+ul#menu li:hover ul {
+    opacity: 1;
+    visibility: visible;
+}
+
+ul#menu ul li {
+    float: none;
+    display: block;
+    border: 0;
+}
+
+ul#menu ul a {
+    padding: 10px;
+    width: 130px;
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+}
+
+ul#menu ul a:hover {
+    background-color: #0186ba;
+    color: #fff
+}
+
+
+
+/*TITLES*/
+
+
+
+h1 {
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px #2a2929,
+        -2px -2px 4px #2a2929;
+}
+
+
+
+h2 {
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #2a2929,
+        -2px -2px 4px #2a2929;
+}
+
+
+#picture1 {
+    height: 150px;
+    margin-right: 20px;
+    border: 1px solid rgb(255, 244, 244);
+    border-radius: 5px;
+}
+
+p {
+    width: 500px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin: auto;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+/*LOGO*/
+
+#logo1 {
+    display: flex;
+    height: 80px;
+    margin: 0 auto;
+}
+#logo2 {
+    display: flex;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+
+/*BOX PROJECTS*/
+#projects {
+    margin-top: 10px;
+    height: 40px;
+}
+
+.button {
+    color: black;
+    height: 150px;
+    padding-left: 10px;
+}
+
+.pro {
+    border-radius: 20px;
+    margin-bottom: 40px;
+    border-color: black;
+    border-style: dotted;
+    height: 30px;
+    padding: 10px;
+    font-size: large;
+}
+
+.pro1 {
+    margin-bottom: 40px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: dotted;
+    height: 30px;
+    padding: 10px;
+    font-size: large;
+
+}
+
+.pro2 {
+    margin-bottom: 40px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: dotted;
+    height: 30px;
+    padding: 10px;
+    font-size: large;
+}

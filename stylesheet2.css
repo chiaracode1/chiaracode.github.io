@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(background1.jpg);
+    background-size: cover;
+    width: auto;
+}
+h1 {
+    color: white;
+        margin: auto;
+        padding-top: 200px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 70%;
+        display: flex;
+        justify-content: center;
+        text-shadow: 2px 2px 4px #2a2929,
+            -2px -2px 4px #2a2929;
+}
+
+/* MOBILE */
+@media all and (min-width: 320px) {
+h1 {
+    font-size: 30px;
+}
+}
+/*MENU*/
+
+
+#drop-menu {
+    margin-top: -35px;
+    margin-left: 20px;
+    padding: 0;
+
+}
+
+
+ul#menu {
+    margin: 60px -20px 0;
+    padding: 0;
+    list-style: none;
+    font-size: 80%;
+}
+
+ul#menu li {
+    margin: 0 auto;
+    padding: 0;
+    float: left;
+    display: block;
+    position: relative;
+}
+
+ul#menu li a {
+    float: left;
+    padding: 12px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+ul#menu li a:hover {
+    background: #666;
+    color: #fff
+}
+
+ul#menu ul {
+    margin: 2px 0 0;
+    padding: 0;
+    display: inline-block;
+    list-style: none;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 38px;
+    left: 0;
+    background: #796d6d;
+}
+
+ul#menu li:hover ul {
+    opacity: 1;
+    visibility: visible;
+}
+
+ul#menu ul li {
+    float: none;
+    display: block;
+    border: 0;
+}
+
+ul#menu ul a {
+    padding: 10px;
+    width: 130px;
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+}
+
+ul#menu ul a:hover {
+    background-color: #0186ba;
+    color: #fff
+}
+
+
+
+
+
